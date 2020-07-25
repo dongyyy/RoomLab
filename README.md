@@ -7,9 +7,8 @@
 
     [](https://developer.android.com/training/data-storage/room#kotlin)
 
-- 예제 소스
-    - [https://github.com/dongyyy/RoomLab](https://github.com/dongyyy/RoomLab)
-    - Gradle 설정
+
+- Gradle 설정
 
         ```kotlin
         //Module gralde
