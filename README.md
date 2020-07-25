@@ -20,3 +20,9 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
 }
 ```
+
+---
+
+[Sqlite와 비교한 Room의 장점](https://www.notion.so/Sqlite-Room-ad5c85f72277405d8684db2433698fde)
+
+[**Room vs Realm**](https://www.notion.so/Room-vs-Realm-1650e31090024fab8a355ae739c9891e)
