@@ -10,13 +10,13 @@
 
 - Gradle 설정
 
-        ```kotlin
-        //Module gralde
-        apply plugin: 'kotlin-kapt'
+```
+//Module gralde
+apply plugin: 'kotlin-kapt'
 
-        dependencies {
-        		def room_version = "2.2.5"
-            implementation "androidx.room:room-runtime:$room_version"
-            kapt "androidx.room:room-compiler:$room_version"
-        }
-        ```
+dependencies {
+    def room_version = "2.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+}
+```
