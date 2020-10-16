@@ -1,10 +1,7 @@
 package com.dongy.roomproject
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface TodoDao {
@@ -15,9 +12,12 @@ interface TodoDao {
     fun getLast(): Todo
 
     @Insert
-    fun insert(todo: Todo)
+    suspend fun insert(todo: Todo)
+
+    @Update
+    suspend fun update(todo: Todo)
 
     @Delete
-    fun delete(todo: Todo)
+    suspend fun delete(todo: Todo)
 }
     
